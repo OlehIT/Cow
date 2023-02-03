@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #FDFCEF;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 120px;
+}
+
+p {
+    line-height: 1.37em;
+    margin: 0;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.367em;
+    margin: 0;
+}
+
+.logo {
+    margin: 60px 928px 82px 0;
+    max-width: 182px;
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h3{
+    width: 513px;
+    font-size: 30px;
+    margin: auto auto 11px 0;
+}
+
+.intro {
+    font-size: 18px;
+    margin: 30px 0;
+    width: 423px;
+}
+
+.intro2{
+    font-size: 18px;
+    margin: 24px 0;
+    width: 371px;
+}
+
+.button {
+    background: #FF6861;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 22px 0;
+    font-weight: 700;
+    line-height: 1.19em;
+    display: block;
+    width: 227px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background: rgb(255, 145, 145);
+}
+
+.hero-text {
+    width: 465px;
+}
+
+.offer{
+    width: 475px;
+    height: 335px;
+}
+
+.indecent-text{
+    width: 475px;
+    text-align: left;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 176px;
+}
+
+.features-container {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    margin: 0 auto;
+}
+
+.feature {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.action-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 99px 122px;
+    gap: 101px;
+    justify-content: center;
+    height: 486px;
+}
+
+.credits {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.text{
+    margin: 0 auto;
+    width: 198px;
+}
